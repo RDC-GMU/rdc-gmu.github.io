@@ -23,7 +23,7 @@
 @layer components {
     .dashboard-grid { @apply flex flex-col xl:flex-row gap-5 items-start w-full; }
     .column-main { @apply w-full xl:w-auto xl:flex-2 flex flex-col gap-5 overflow-hidden; }
-    .column-side { @apply w-full xl:w-auto xl:flex-1 flex flex-col gap-5 overflow-hidden; }
+    .column-side { @apply w-full xl:w-auto xl:flex-[1.5] flex flex-col gap-5 overflow-hidden; }
     
     .super-container { @apply flex flex-col gap-5 mt-[15px] overflow-hidden; }
     

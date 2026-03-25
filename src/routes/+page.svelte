@@ -37,10 +37,6 @@
 								<th>LOCATION</th>
 								<td>MARC @George Mason University, Fairfax, VA</td>
 							</tr>
-							<tr>
-								<th>STATUS</th>
-								<td class="connected">OPERATIONAL</td>
-							</tr>
 						</tbody>
 					</table>
 				</div>
@@ -67,20 +63,6 @@
 							</tr>
 						</tbody>
 					</table>
-				</div>
-			</div>
-		</div>
-
-		<div class="config-category">
-			<h2>TERMINAL</h2>
-			<div class="console-box" style="height: 120px; overflow: hidden; display: flex; flex-direction: column;">
-				<div class="console-output" style="height: auto; flex: 1; padding-bottom: 0;">
-					<span class="console-cmd">sys check --status</span><br>
-					<span class="console-resp">ALL SYSTEMS NOMINAL</span><br>
-				</div>
-				<div class="console-input-row">
-					<span class="console-prompt">&gt;</span>
-					<input type="text" class="console-input" placeholder="Guest access enabled..." disabled autocomplete="off" />
 				</div>
 			</div>
 		</div>
