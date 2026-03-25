@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+    --font-mono: "JetBrains Mono", "Fira Mono", "Cascadia Mono", "Consolas", "Courier New", Courier, monospace;
+}
+
+@layer base {
+    body {
+        @apply font-mono bg-white text-black p-5 max-w-[1400px] mx-auto;
+    }
+    h1 { @apply text-2xl font-bold; }
+    h2 { @apply text-xl mt-[30px] border-b border-black pb-1; }
+    a { @apply text-blue-600 underline; }
+    a:visited { @apply text-purple-800; }
+    hr { @apply border-0 border-t border-black my-5; }
+    pre { @apply my-2.5 whitespace-pre-wrap; }
+    button:disabled { @apply opacity-50 cursor-not-allowed; }
+}
+
+@layer components {
+    .dashboard-grid { @apply flex flex-wrap gap-5 items-start; }
+    .column-main { @apply flex-[2] min-w-[500px] flex flex-col gap-5; }
+    .column-side { @apply flex-1 min-w-[350px] flex flex-col gap-5; }
+    
+    .super-container { @apply flex flex-col gap-5 mt-[15px]; }
+    
+    .config-category { @apply p-[15px] bg-white border border-black mb-[15px]; }
+    .config-category h2 { @apply mt-0 mb-3 text-xl text-black border-b border-black pb-1 font-bold; }
+    
+    .hardware-box { @apply mt-5 border border-black p-2.5 bg-[#f8f8f8] max-w-full box-border overflow-x-auto; }
+    .hardware-box h3 { @apply mt-0 mb-2.5 font-bold underline text-lg; }
+    .hardware-box p { @apply my-1; }
+    
+    .tables-container { @apply flex flex-wrap gap-5 items-start mt-2.5; }
+    .table-wrapper { @apply flex-[1_1_300px] max-w-full overflow-x-auto; }
+    
+    .config-table { @apply mt-2.5 w-full border-collapse bg-white text-sm; }
+    .config-table th, .config-table td { @apply border border-black py-2 px-2.5 text-left break-all; }
+    .config-table th { @apply bg-[#e0e0e0] font-bold; }
+    
+    .connected { @apply text-green-700 font-bold; }
+    .error { @apply text-red-600 font-bold; }
+
+    .header-container { @apply flex items-center gap-[15px] mb-5; }
+    .header-container h1 { @apply m-0; }
+
+    .edit-btn, .export-btn, .save-btn, .cancel-btn { 
+        @apply py-1.5 px-[15px] text-sm font-bold cursor-pointer border border-black bg-[#e0e0e0] font-mono hover:bg-[#d0d0d0]; 
+    }
+    
+    .delete-btn { @apply py-1.5 px-[15px] text-sm font-bold cursor-pointer border border-[#990000] bg-[#ffcccc] text-[#990000] font-mono hover:bg-[#ff9999] ml-auto; }
+
+    .sys-grid { @apply grid grid-cols-3 gap-[15px]; }
+    .sys-bar-wrap { @apply mt-2.5 h-3 bg-[#eee] border border-black; }
+    .sys-bar { @apply h-full transition-all duration-500 bg-black; }
+    .sys-bar-warn { @apply bg-[#c8a000]; }
+    .sys-bar-crit { @apply bg-[#cc0000]; }
+
+    .console-box { @apply border border-black bg-[#f8f8f8] p-0 font-mono text-[13px]; }
+    .console-output { @apply h-[200px] overflow-y-auto p-2.5 text-black whitespace-pre-wrap break-all; }
+    .console-output .console-cmd { @apply text-[#006400]; }
+    .console-output .console-resp { @apply text-[#333333]; }
+    .console-output .console-err { @apply text-red-600 font-bold; }
+    .console-input-row { @apply flex items-center border-t border-black bg-[#eee]; }
+    .console-prompt { @apply py-2 px-1.5 pl-2.5 text-[#006400] font-bold; }
+    .console-input { @apply flex-1 bg-transparent border-none outline-none text-black font-mono text-[13px] py-2 px-1 placeholder-gray-400; }
+    .console-input-row .edit-btn { @apply border-none border-l border-black bg-[#e0e0e0] text-black py-2 px-[15px] text-[13px] hover:bg-[#d0d0d0]; }
+}
