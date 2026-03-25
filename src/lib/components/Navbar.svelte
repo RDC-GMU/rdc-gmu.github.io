@@ -28,6 +28,14 @@
             : 'bg-[#eee] text-black'}">TEAM</a
     >
     <a
+        href="/events"
+        class="px-5 py-2.5 no-underline font-bold text-sm border-r border-black flex-shrink-0 hover:bg-[#ddd] {$page.url.pathname.startsWith(
+            '/events',
+        )
+            ? 'bg-black text-white'
+            : 'bg-[#eee] text-black'}">EVENTS</a
+    >
+    <a
         href="/resources"
         class="px-5 py-2.5 no-underline font-bold text-sm border-r border-black flex-shrink-0 hover:bg-[#ddd] {$page
             .url.pathname === '/resources'
