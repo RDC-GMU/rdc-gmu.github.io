@@ -7,7 +7,14 @@
 </script>
 
 <svelte:head>
-	<title>Raytheon Drone Competition</title>
+	<title>Raytheon Drone Competition (RDC) | GMU</title>
+	<meta name="description" content="Official website for the Raytheon Drone Competition (RDC) team at George Mason University. Developing collaborative autonomous UAV and UGV systems for GPS-denied environments." />
+	<meta name="keywords" content="Raytheon, Drone, Competition, RDC, GMU, George Mason University, UAV, UGV, Autonomous Vehicles, Robotics" />
+	<meta property="og:title" content="Raytheon Drone Competition (RDC) | GMU" />
+	<meta property="og:description" content="Official website for the Raytheon Drone Competition (RDC) team at George Mason University." />
+	<meta property="og:image" content="/logo.png" />
+	<meta property="og:url" content="https://rdc-gmu.github.io/" />
+	<meta name="twitter:card" content="summary" />
 	<link rel="icon" href="/logo.png" />
 </svelte:head>
 
