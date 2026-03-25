@@ -39,7 +39,7 @@
 		{ name: "Meah Chambers", role: "Team Lead" },
 		{ name: "Luis Anchundia", role: "Electrical Engineer" },
 		{ name: "Connor Roberts", role: "Operations Specialist" },
-		{ name: "Toan Do", role: "Safety Pilot" },
+		{ name: "Toan Do", role: "Electrical Engineer" },
 		{ name: "James Daniel", role: "Team Member" },
 		{ name: "Gagan (Adith) Manjunatha", role: "Software Engineer" },
 		{ name: "Chris Klevisha", role: "Team Member" },

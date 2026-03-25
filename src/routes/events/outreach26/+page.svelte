@@ -39,7 +39,7 @@
                 style="display: block; margin-top: 20px;"
             >
                 <button
-                    class="save-btn font-bold py-2.5 px-6 w-full md:w-auto text-lg hover:bg-black hover:text-white transition-colors border-2 border-black bg-[#e0e0e0] text-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] active:translate-y-1 active:shadow-none"
+                    class="save-btn font-bold py-2.5 px-6 w-full md:w-auto text-lg hover:bg-black hover:text-white transition-colors border-2 border-black bg-[#e0e0e0] text-black"
                     >RSVP HERE</button
                 >
             </a>
@@ -67,14 +67,14 @@
             <div class="mt-3">
                 <strong class="text-sm">EVENT ADDRESS:</strong>
                 <div
-                    class="text-[13px] bg-white border border-black p-3 mt-1.5 mb-4 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
+                    class="text-[13px] bg-white border border-black p-3 mt-1.5 mb-4"
                 >
                     Research Hall<br />001 York River Rd<br />Fairfax, VA 22030
                 </div>
 
                 <strong class="text-sm">SHENANDOAH PARKING DECK ($12):</strong>
                 <div
-                    class="text-[13px] bg-white border border-black p-3 mt-1.5 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
+                    class="text-[13px] bg-white border border-black p-3 mt-1.5"
                 >
                     10401 York River Rd<br />Fairfax, VA 22030
                 </div>

@@ -7,12 +7,18 @@
 
     const documentation: any[] = [];
 
-    const tools: any[] = [];
+    const tools: any[] = [
+        {
+            name: "Sim-Link",
+            description:
+                "A web application designed to take the results of Gazebo simulations, save them, rank the best-performing simulations, and display the detailed results in a clean, easy-to-understand format.",
+            url: "https://simlink.sirblob.co/",
+        },
+    ];
 </script>
 
 <div class="super-container">
-    <!-- <ResourceTable title="DOCUMENTATION" resources={documentation} />
-    <ResourceTable title="TOOLS & SOFTWARE" resources={tools} /> -->
+    <ResourceTable title="TOOLS & SOFTWARE" resources={tools} />
 
     {#if data.files.length > 0}
         <FileTable title="TEAM FILES & DOWNLOADS" files={data.files} />
