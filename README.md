@@ -1,42 +1,60 @@
-# sv
+# Raytheon Drone Competition (RDC) Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+[![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed_on-GitHub_Pages-blue?logo=github)](https://rdc-gmu.github.io)
+[![SvelteKit](https://img.shields.io/badge/SvelteKit-5-ff3e00?logo=svelte)](https://kit.svelte.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-black?logo=tailwindcss)](https://tailwindcss.com/)
+[![Bun](https://img.shields.io/badge/Bun-latest-black?logo=bun)](https://bun.sh/)
 
-## Creating a project
+## Overview
+This platform serves as the public website for the RDC Team, currently focused on developing collaborative autonomous systems for the **2025-2026 Raytheon Autonomous Vehicle Competition (AVC)**.
 
-If you're seeing this, you've probably already done this step. Congrats!
+The website provides a centralized overview of:
+- Our mission statement and technical capabilities.
+- Live system statuses and events.
+- The official Drone and Ground Team directory.
+- Curated access to all active tracking/software repositories.
+- Community Discord connections and organizational meeting schedules.
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## Tech Stack
+This project is built using modern edge technologies optimized for static workflows:
+- **Framework**: [Svelte 5](https://svelte.dev/) & [SvelteKit](https://kit.svelte.dev/) utilizing runes and snippet design patterns. 
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) implementing inline utilities mapped via `@theme`.
+- **Icons**: [@iconify/svelte](https://iconify.design/) providing scalable vector illustrations without heavy payload sizes.
+- **Runtime**: [Bun](https://bun.sh/) for ultra-fast dependency management and compilation speeds.
 
-To recreate this project with the same configuration:
+## Development Setup
 
-```sh
-# recreate this project
-bun x sv@0.13.0 create --template minimal --types ts --add tailwindcss="plugins:typography,forms" --install bun ./
-```
+To run the project locally, you will need to have [Bun](https://bun.sh/) installed on your machine.
 
-## Developing
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/RDC-GMU/website.git
+   cd website
+   ```
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+2. **Install dependencies:**
+   ```bash
+   bun install
+   ```
 
-```sh
-npm run dev
+3. **Start the development server:**
+   ```bash
+   bun run dev
+   ```
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+You can now preview the application concurrently by navigating to `http://localhost:5173`.
 
-## Building
+## Deployment Architecture
 
-To create a production version of your app:
+This website runs identically to a definitively statically generated site (SSG). 
 
-```sh
-npm run build
-```
+It utilizes the `@sveltejs/adapter-static` adapter. The internal configuration natively generates HTML directly into a pristine `build/` directory without requiring heavy NodeJS middleware logic holding up API requests. 
 
-You can preview the production build with `npm run preview`.
+### GitHub Actions CI/CD
+The project securely relies on an integrated **GitHub Actions automation workflow** (`.github/workflows/deploy.yml`) to completely govern its deployment lifecycle.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Whenever code changes are committed and pushed safely to the `main` branch, the workflow:
+1. Provisions an isolated Ubuntu Linux container.
+2. Bootstraps the latest `Bun` toolkit runtime context.
+3. Automatically evaluates dependencies executing `bun run build`.
+4. Seamlessly transfers the compiled `/build` artifact pipeline directly into the `github-pages` environment overriding natively at `rdc-gmu.github.io`.
