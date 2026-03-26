@@ -3,21 +3,27 @@
 		<div class="config-category">
 			<h2>ABOUT THE TEAM</h2>
 			<p>
-				The RDC Team is currently focused on developing collaborative autonomous systems for the <strong>2025-2026 Raytheon Autonomous Vehicle Competition (AVC)</strong>.
+				The RDC Team is currently focused on developing collaborative
+				autonomous systems for the <strong
+					>2025-2026 Raytheon Autonomous Vehicle Competition (AVC)</strong
+				>.
 			</p>
 		</div>
 
 		<div class="hardware-box">
 			<h3>MISSION STATEMENT</h3>
 			<p>
-				To design, integrate, and test an autonomous UAV and UGV system capable of collaborative target identification and dynamic landing in GPS-denied environments.
+				To design, integrate, and test an autonomous UAV and UGV system
+				capable of collaborative target identification and dynamic
+				landing in GPS-denied environments.
 			</p>
 		</div>
 
 		<div class="hardware-box mt-5">
 			<h3>WHAT WE DO</h3>
 			<p>
-				We make drones fly. We make drones land. We make drones see. We make drones think.
+				We make drones fly. We make drones land. We make drones see. We
+				make drones think.
 			</p>
 		</div>
 	</div>
@@ -31,11 +37,13 @@
 						<tbody>
 							<tr>
 								<th>ORGANIZATION</th>
-								<td>Raytheon Drone Competition (RDC)</td>
+								<td>Raytheon Drone Club (RDC)</td>
 							</tr>
 							<tr>
 								<th>LOCATION</th>
-								<td>MARC @George Mason University, Fairfax, VA</td>
+								<td
+									>MARC @George Mason University, Fairfax, VA</td
+								>
 							</tr>
 						</tbody>
 					</table>

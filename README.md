@@ -1,4 +1,4 @@
-# Raytheon Drone Competition (RDC) Website
+# Raytheon Drone Club (RDC) Website
 
 [![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed_on-GitHub_Pages-blue?logo=github)](https://rdc-gmu.github.io)
 [![SvelteKit](https://img.shields.io/badge/SvelteKit-5-ff3e00?logo=svelte)](https://kit.svelte.dev/)
