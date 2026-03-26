@@ -19,9 +19,9 @@
             <table class="config-table">
                 <thead>
                     <tr>
-                        <th>RESOURCE</th>
-                        <th>DESCRIPTION</th>
-                        <th>LINK</th>
+                        <th class="w-[30%]">RESOURCE</th>
+                        <th class="w-[55%]">DESCRIPTION</th>
+                        <th class="w-[15%]">LINK</th>
                     </tr>
                 </thead>
                 <tbody>

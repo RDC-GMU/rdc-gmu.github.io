@@ -19,11 +19,11 @@
                 >.
             </p>
             <p class="mt-3">
-                I am still working on parking arrangements; however, right now
-                it looks like parking will not be free. It will be <strong
-                    >$12 to park at the Shenandoah Parking Deck</strong
-                >. I have added addresses below. I advise that anyone attending
-                the event should carpool with friends and family.
+                It will be <strong>$12 to park at the Shenandoah Parking
+                    Deck</strong>. If you are driving, fill out the RSVP form and
+                include your driving info; we might provide reimbursements, not
+                guaranteed. I have added addresses below. I advise that anyone
+                attending the event should Carpool with Friends and Family.
             </p>
             <p class="mt-3">
                 This event is also not specifically for Scouts; Scouts can
@@ -80,8 +80,10 @@
                 </div>
             </div>
             <div class="mt-5 text-xs text-[#555] border-t border-black pt-2">
-                <strong>Note:</strong> We strongly advise carpooling with friends
-                and family to minimize parking costs and congestion.
+                <span class="font-bold text-red-600">
+                    We strongly advise carpooling with friends and family to
+                    minimize parking costs and congestion.
+                </span>
             </div>
         </div>
     </div>

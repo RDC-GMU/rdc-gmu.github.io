@@ -38,7 +38,7 @@
     .table-wrapper { @apply flex-[1_1_300px] max-w-full overflow-x-auto; }
     
     .config-table { @apply mt-2.5 w-full border-collapse bg-white text-sm; }
-    .config-table th, .config-table td { @apply border border-black py-2 px-2.5 text-left break-all; }
+    .config-table th, .config-table td { @apply border border-black py-2 px-2.5 text-left; }
     .config-table th { @apply bg-[#e0e0e0] font-bold; }
     
     .connected { @apply text-green-700 font-bold; }

@@ -11,7 +11,7 @@
         {
             name: "Sim-Link",
             description:
-                "A web application designed to take the results of Gazebo simulations, save them, rank the best-performing simulations, and display the detailed results in a clean, easy-to-understand format.",
+                "A web application designed to take the results of Gazebo simulations, save them, rank the best-performing simulations.",
             url: "https://simlink.sirblob.co/",
         },
     ];
