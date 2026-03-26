@@ -6,10 +6,6 @@
 				<button class="save-btn" onclick={() => window.open('https://calendar.google.com/calendar/render?cid=4ddd5a1a4f8d806829a85b10e2e7d77d1185fb5ad242551cf6d48103f2876183%40group.calendar.google.com', '_blank')}>SUBSCRIBE // SYNC</button>
 			</div>
 		</h2>
-		
-		<p style="margin-bottom: 15px;">
-			Tracking all general meetings, field deployments, and sub-team architecture reviews.
-		</p>
 
 		<div class="hardware-box" style="padding: 0; border: none; background: transparent;">
 			<iframe 
