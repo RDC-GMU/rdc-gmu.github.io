@@ -72,14 +72,6 @@
                                     class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                                 />
                             </div>
-                            <div class="p-2.5 border-t border-black">
-                                <div class="font-bold text-sm">
-                                    {img.caption}
-                                </div>
-                                <div class="text-xs text-[#555] mt-1">
-                                    {img.date}
-                                </div>
-                            </div>
                         </button>
                     {/each}
                 </div>
@@ -103,12 +95,6 @@
                                     <track kind="captions" />
                                 </video>
                             </div>
-                            <div class="p-2.5 border-t border-black">
-                                <div class="font-bold text-sm">{vid.title}</div>
-                                <div class="text-xs text-[#555] mt-1">
-                                    {vid.date}
-                                </div>
-                            </div>
                         </div>
                     {/each}
                 </div>
@@ -124,21 +110,24 @@
         aria-modal="true"
     >
         <button
+            class="absolute inset-0 w-full h-full bg-transparent border-none cursor-pointer"
+            aria-label="Close background"
+            onclick={closeLightbox}
+        ></button>
+
+        <button
             class="absolute top-4 right-4 text-white font-bold text-2xl bg-transparent border-none cursor-pointer z-50 hover:text-gray-300"
             onclick={closeLightbox}
             aria-label="Close lightbox"
         >
             ✕
         </button>
-        <div class="max-w-4xl max-h-[90vh] w-full">
+        <div class="relative max-w-4xl max-h-[90vh] w-full pointer-events-none">
             <img
                 src={lightboxSrc}
                 alt={lightboxCaption}
-                class="w-full max-h-[80vh] object-contain"
+                class="w-full max-h-[80vh] object-contain pointer-events-auto"
             />
-            <div class="text-white text-center mt-3 font-bold text-sm">
-                {lightboxCaption}
-            </div>
         </div>
     </div>
 {/if}

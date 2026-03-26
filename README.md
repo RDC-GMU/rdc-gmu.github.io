@@ -29,7 +29,6 @@ To run the project locally, you will need to have [Bun](https://bun.sh/) install
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/RDC-GMU/website.git
-   cd website
    ```
 
 2. **Install dependencies:**
