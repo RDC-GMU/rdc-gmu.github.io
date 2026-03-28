@@ -3,7 +3,7 @@
 		<div class="config-category">
 			<h2>ABOUT THE TEAM</h2>
 			<p>
-				The RDC Team is currently focused on developing collaborative
+				The ARC Team is currently focused on developing collaborative
 				autonomous systems for the <strong
 					>2025-2026 Raytheon Autonomous Vehicle Competition (AVC)</strong
 				>.
@@ -37,7 +37,7 @@
 						<tbody>
 							<tr>
 								<th>ORGANIZATION</th>
-								<td>Raytheon Drone Club (RDC)</td>
+								<td>Autonomous Robotics Club (ARC)</td>
 							</tr>
 							<tr>
 								<th>LOCATION</th>

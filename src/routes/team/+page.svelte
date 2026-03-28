@@ -64,7 +64,7 @@
 		<div class="hardware-box">
 			<h3>JOIN US & CONTRIBUTE</h3>
 			<p>
-				Interested in joining the RDC team? We are looking for members
+				Interested in joining the ARC team? We are looking for members
 				who are interested and <strong>dedicated</strong> to working with
 				us.
 			</p>

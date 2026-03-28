@@ -7,19 +7,19 @@
 </script>
 
 <svelte:head>
-	<title>Raytheon Drone Club (RDC) | GMU</title>
+	<title>Autonomous Robotics Club (ARC) | GMU</title>
 	<meta
 		name="description"
-		content="Official website for the Raytheon Drone Club (RDC) team at George Mason University. Developing collaborative autonomous UAV and UGV systems for GPS-denied environments."
+		content="Official website for the Autonomous Robotics Club (ARC) team at George Mason University. Developing collaborative autonomous UAV and UGV systems for GPS-denied environments."
 	/>
 	<meta
 		name="keywords"
-		content="Raytheon, Drone, Club, RDC, GMU, George Mason University, UAV, UGV, Autonomous Vehicles, Robotics"
+		content="Autonomous, Robotics, Club, ARC, GMU, George Mason University, UAV, UGV, Autonomous Vehicles, Robotics"
 	/>
-	<meta property="og:title" content="Raytheon Drone Club (RDC) | GMU" />
+	<meta property="og:title" content="Autonomous Robotics Club (ARC) | GMU" />
 	<meta
 		property="og:description"
-		content="Official website for the Raytheon Drone Club (RDC) team at George Mason University."
+		content="Official website for the Autonomous Robotics Club (ARC) team at George Mason University."
 	/>
 	<meta property="og:image" content="/logo.png" />
 	<meta property="og:url" content="https://rdc-gmu.github.io/" />
@@ -33,13 +33,13 @@
 	<div class="flex items-center gap-[15px]">
 		<img
 			src="/logo.png"
-			alt="RDC Logo"
+			alt="ARC Logo"
 			class="h-10 md:h-12 rounded-md w-auto object-contain"
 		/>
 		<h1 class="m-0 text-xl md:text-2xl font-bold leading-tight">
-			RAYTHEON DRONE CLUB <span
+			AUTONOMOUS ROBOTICS CLUB <span
 				class="text-[14px] md:text-[18px] text-[#555] font-normal block sm:inline mt-1 sm:mt-0"
-				>(RDC)</span
+				>(ARC)</span
 			>
 		</h1>
 	</div>

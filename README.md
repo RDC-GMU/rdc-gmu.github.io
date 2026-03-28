@@ -1,4 +1,4 @@
-# Raytheon Drone Club (RDC) Website
+# Autonomous Robotics Club (ARC) Website
 
 [![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed_on-GitHub_Pages-blue?logo=github)](https://rdc-gmu.github.io)
 [![SvelteKit](https://img.shields.io/badge/SvelteKit-5-ff3e00?logo=svelte)](https://kit.svelte.dev/)
@@ -6,7 +6,7 @@
 [![Bun](https://img.shields.io/badge/Bun-latest-black?logo=bun)](https://bun.sh/)
 
 ## Overview
-This platform serves as the public website for the RDC Team, currently focused on developing collaborative autonomous systems for the **2025-2026 Raytheon Autonomous Vehicle Competition (AVC)**.
+This platform serves as the public website for the ARC Team, currently focused on developing collaborative autonomous systems for the **2025-2026 Raytheon Autonomous Vehicle Competition (AVC)**.
 
 The website provides a centralized overview of:
 - Our mission statement and technical capabilities.

@@ -13,7 +13,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td><strong>RDC Simulation</strong></td>
+							<td><strong>ARC Simulation</strong></td>
 							<td>Simulation framework for UAV and UGV testing</td>
 							<td><a href="https://github.com/RDC-GMU/Simulation" target="_blank" rel="noopener noreferrer"><button class="edit-btn">VIEW GITHUB</button></a></td>
 						</tr>
@@ -33,8 +33,8 @@
 							<td><a href="https://github.com/RDC-GMU/Jetson-Router" target="_blank" rel="noopener noreferrer"><button class="edit-btn">VIEW GITHUB</button></a></td>
 						</tr>
 						<tr>
-							<td><strong>RDC Shadows</strong></td>
-							<td>RDC Shadows Tasks and Code</td>
+							<td><strong>ARC Shadows</strong></td>
+							<td>ARC Shadows Tasks and Code</td>
 							<td><a href="https://github.com/RDC-GMU/Shadow-Tasks" target="_blank" rel="noopener noreferrer"><button class="edit-btn">VIEW GITHUB</button></a></td>
 						</tr>
 					</tbody>
