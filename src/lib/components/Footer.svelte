@@ -7,7 +7,7 @@
 		class="text-sm flex flex-col md:flex-row gap-4 justify-between items-center text-center md:text-left"
 	>
 		<div>
-			<span>AUTONOMOUS ROBOTICS CLUB (GMU).</span>
+			<span>AUTONOMOUS ROBOTICS CLUB (ARC).</span>
 		</div>
 		<div
 			class="text-center md:text-right flex flex-col md:flex-row items-center justify-center md:justify-end gap-[15px]"

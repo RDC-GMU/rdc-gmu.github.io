@@ -7,19 +7,19 @@
 </script>
 
 <svelte:head>
-	<title>Autonomous Robotics Club (ARC) | GMU</title>
+	<title>Autonomous Robotics Club (ARC)</title>
 	<meta
 		name="description"
-		content="Official website for the Autonomous Robotics Club (ARC) team at George Mason University. Developing collaborative autonomous UAV and UGV systems for GPS-denied environments."
+		content="Official website for the Autonomous Robotics Club (ARC) team. Developing collaborative autonomous UAV and UGV systems for GPS-denied environments."
 	/>
 	<meta
 		name="keywords"
-		content="Autonomous, Robotics, Club, ARC, GMU, George Mason University, UAV, UGV, Autonomous Vehicles, Robotics"
+		content="Autonomous, Robotics, Club, ARC, UAV, UGV, Autonomous Vehicles, Robotics"
 	/>
-	<meta property="og:title" content="Autonomous Robotics Club (ARC) | GMU" />
+	<meta property="og:title" content="Autonomous Robotics Club (ARC)" />
 	<meta
 		property="og:description"
-		content="Official website for the Autonomous Robotics Club (ARC) team at George Mason University."
+		content="Official website for the Autonomous Robotics Club (ARC) team."
 	/>
 	<meta property="og:image" content="/logo.png" />
 	<meta property="og:url" content="https://rdc-gmu.github.io/" />
@@ -42,11 +42,6 @@
 				>(ARC)</span
 			>
 		</h1>
-	</div>
-	<div
-		class="md:ml-auto w-full md:w-auto text-left md:text-right border-t border-gray-300 md:border-none pt-2 md:pt-0"
-	>
-		<div class="text-[16px] md:text-[18px] font-bold">GMU</div>
 	</div>
 </div>
 

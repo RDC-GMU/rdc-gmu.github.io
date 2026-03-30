@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-    <title>{$page.status} Error | GMU ARC</title>
+    <title>{$page.status} Error | ARC</title>
 </svelte:head>
 
 <div class="super-container max-w-[800px] mx-auto mt-10">
