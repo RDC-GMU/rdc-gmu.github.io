@@ -34,7 +34,7 @@
 		<img
 			src="/logo.png"
 			alt="ARC Logo"
-			class="h-10 md:h-12 rounded-md w-auto object-contain"
+			class="h-16 md:h-24 rounded-md w-auto object-contain"
 		/>
 		<h1 class="m-0 text-xl md:text-2xl font-bold leading-tight">
 			AUTONOMOUS ROBOTICS CLUB <span
