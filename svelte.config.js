@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-vercel';
 import { relative, sep } from 'node:path';
 
 const config = {
@@ -12,13 +12,7 @@ const config = {
 		}
 	},
 	kit: {
-		adapter: adapter({
-			pages: 'build',
-			assets: 'build',
-			fallback: '404.html',
-			precompress: false,
-			strict: true
-		})
+		adapter: adapter()
 	}
 };
 

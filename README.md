@@ -1,6 +1,6 @@
 # Autonomous Robotics Club (ARC) Website
 
-[![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed_on-GitHub_Pages-blue?logo=github)](https://rdc-gmu.github.io)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)](https://vercel.com)
 [![SvelteKit](https://img.shields.io/badge/SvelteKit-5-ff3e00?logo=svelte)](https://kit.svelte.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-black?logo=tailwindcss)](https://tailwindcss.com/)
 [![Bun](https://img.shields.io/badge/Bun-latest-black?logo=bun)](https://bun.sh/)
@@ -45,15 +45,10 @@ You can now preview the application concurrently by navigating to `http://localh
 
 ## Deployment Architecture
 
-This website runs identically to a definitively statically generated site (SSG). 
+This website is configured to be deployed on **Vercel** using `@sveltejs/adapter-vercel`.
 
-It utilizes the `@sveltejs/adapter-static` adapter. The internal configuration natively generates HTML directly into a pristine `build/` directory without requiring heavy NodeJS middleware logic holding up API requests. 
-
-### GitHub Actions CI/CD
-The project securely relies on an integrated **GitHub Actions automation workflow** (`.github/workflows/deploy.yml`) to completely govern its deployment lifecycle.
-
-Whenever code changes are committed and pushed safely to the `main` branch, the workflow:
-1. Provisions an isolated Ubuntu Linux container.
-2. Bootstraps the latest `Bun` toolkit runtime context.
-3. Automatically evaluates dependencies executing `bun run build`.
-4. Seamlessly transfers the compiled `/build` artifact pipeline directly into the `github-pages` environment overriding natively at `rdc-gmu.github.io`.
+### Vercel Deployment
+The project is set up to deploy seamlessly on Vercel. 
+1. Import the repository into your Vercel dashboard.
+2. Vercel will automatically detect the SvelteKit project and use the `bun run build` command.
+3. The site will be built and deployed automatically on every push to the `main` branch.
